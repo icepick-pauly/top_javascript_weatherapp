@@ -12,11 +12,17 @@ body {
     overflow: hidden;
 }
 
+.app-name {
+    color: white;
+    margin-top: 1em;
+    text-align: center;
+}
+
 .app-container {
     width: 33vw;
-    height: 80vh;
+    height: 66vh;
     margin: auto;
-    margin-top: 3em;
+    margin-top: 1em;
     background-color: white;
     border-radius: 20px;
     box-shadow: 20px 20px rgba(0, 0, 0, 0.205);
@@ -32,12 +38,13 @@ input[type=text], input[type=submit] {
     margin-top: 1em;
     border-radius: 5px;
     font-family: 'Lora', serif;
+    outline: none;
 }
 
 input[type=text] {
     border: 1px rgb(255, 72, 0) solid;
     height: 2em;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.205);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.205);
 }
 
 input[type=submit] {
@@ -47,11 +54,28 @@ input[type=submit] {
     cursor: pointer;
     height: 2em;
     font-size: 1em;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.205);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.205);
 }
 
-.location {
+input[type=submit]:hover {
+    background:  orange;
+}
+
+input[type=submit]:active {
+    background:  rgb(255, 72, 0),;
+}
+
+.weather-info {
     margin-top: 1em;
+    border: 1px solid rgb(255, 72, 0);
+    height: 40vh;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+}
+
+.location, .temperature {
+    margin-top: 1em;
+    text-align: center;
 }
 
 .location h1, .degree-section h2, span {

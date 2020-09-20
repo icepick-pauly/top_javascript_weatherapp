@@ -6,9 +6,10 @@
     <title>MyWeatherApp</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
+    <h1 class="app-name">MyWeatherApp</h1>
     <div class="app-container">
         <div class="app-content">
             <div class="city-input">
@@ -17,14 +18,15 @@
                     <input type="submit" value="Get Weather!">
                 </form>
             </div>
-            <div class="location">
-                <h1 class="city-name-display">Cockville, USA</h1>
-                <div id="icon"></div>
-            </div>
-            <div class="temperature">
-                <div class="degree-section">
-                <h2 class="temperature-degrees"></h2>
-                <span>°F</span>
+            <div class="weather-info">
+                <div class="location">
+                    <h1 class="city-name-display"></h1>
+                    <div id="icon"></div>
+                </div>
+                <div class="temperature">
+                    <div class="degree-section">
+                    <h2 class="temperature-degrees">Enter your city name to get the weather!</h2>
+                    </div>
                 </div>
             </div>
         </div>
