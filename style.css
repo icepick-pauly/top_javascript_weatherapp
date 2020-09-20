@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(255, 72, 0), orange);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+    overflow: hidden;
+}
+
+.app-container {
+    width: 33vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 3em;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.205);
+}
+
+.app-content {
+    width: 80%;
+    margin: 2em auto;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+}
+
+input[type=text] {
+    border: 1px rgb(255, 72, 0) solid;
+    height: 2em;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+input[type=submit] {
+    background: linear-gradient(45deg, rgb(255, 72, 0), orange);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 2em;
+    font-size: 1em;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+.location {
+    margin-top: 1em;
+}
+
+.location h1, .degree-section h2, span {
+    background: linear-gradient(45deg, rgb(255, 72, 0), orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
